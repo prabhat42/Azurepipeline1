@@ -59,6 +59,20 @@ public class Login extends base{
 		System.out.println("Logo2 Displayed");
 		
 	}
+	@Test 
+	public void logo3() throws IOException, InterruptedException
+	{
+		
+		System.out.println("Logo3 Displayed");
+		
+	}
+	@Test 
+	public void log4() throws IOException, InterruptedException
+	{
+		
+		System.out.println("Logo4 Displayed");
+		
+	}
   /*	@DataProvider (name ="SearchProvider")
 	public Object[] [] dataInput() 
 	{
