@@ -6,7 +6,6 @@
       <class name="Test.Login">
         <methods>
           <include name="logo"/>
-          <include name="logo2"/>
         </methods>
       </class> <!-- Test.Login -->
     </classes>
