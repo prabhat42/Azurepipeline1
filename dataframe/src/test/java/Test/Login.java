@@ -9,7 +9,7 @@ import org.openqa.selenium.By;
 //import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 //import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterMethod;
+//import org.testng.annotations.AfterMethod;
 //import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -34,8 +34,7 @@ public class Login extends base{
 		//driver.get("http://tutorialsninja.com/demo/");
 		driver.findElement(By.xpath("//button[@class='btn btn-primary']")).click();
 		driver.findElement(By.xpath("/html/body/div[1]/div[1]/div[2]/div/form/input")).sendKeys("xzc@gmail.com");
-//		driver.findElement(By.id("//input[@placeholder=\"Enter Password\"]")).sendKeys("12345@klp");
-//		driver.findElement(By.xpath("/html/body/div[1]/div[1]/div[2]/div/form/button")).click();	
+//		
 		System.out.println("Data Science");
 	}
 	@Test 
@@ -78,7 +77,7 @@ public class Login extends base{
    {
 	String  str1="Prabhat";
 	String  str2="prabhat";
-	System.out.println(str1.equals(str2));
+	System.out.println(str1.equals(str2 ));
 	
    }
 		

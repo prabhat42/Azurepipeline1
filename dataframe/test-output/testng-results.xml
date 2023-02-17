@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="1" ignored="0" total="7" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="18234" started-at="2023-02-17T15:56:41 IST" finished-at="2023-02-17T15:56:59 IST">
+  <suite name="Default suite" duration-ms="17879" started-at="2023-02-17T23:07:20 IST" finished-at="2023-02-17T23:07:38 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="18234" started-at="2023-02-17T15:56:41 IST" finished-at="2023-02-17T15:56:59 IST">
+    <test name="Default test" duration-ms="17879" started-at="2023-02-17T23:07:20 IST" finished-at="2023-02-17T23:07:38 IST">
       <class name="Test.Login">
-        <test-method status="PASS" signature="check()[pri:0, instance:Test.Login@80503]" name="check" duration-ms="10" started-at="2023-02-17T15:56:41 IST" finished-at="2023-02-17T15:56:41 IST">
+        <test-method status="PASS" signature="check()[pri:0, instance:Test.Login@80503]" name="check" duration-ms="11" started-at="2023-02-17T23:07:20 IST" finished-at="2023-02-17T23:07:20 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- check -->
-        <test-method status="PASS" signature="log4()[pri:0, instance:Test.Login@80503]" name="log4" duration-ms="3" started-at="2023-02-17T15:56:41 IST" finished-at="2023-02-17T15:56:41 IST">
+        <test-method status="PASS" signature="log4()[pri:0, instance:Test.Login@80503]" name="log4" duration-ms="2" started-at="2023-02-17T23:07:20 IST" finished-at="2023-02-17T23:07:20 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- log4 -->
-        <test-method status="FAIL" signature="logo()[pri:0, instance:Test.Login@80503]" name="logo" duration-ms="10" started-at="2023-02-17T15:56:41 IST" finished-at="2023-02-17T15:56:41 IST">
+        <test-method status="FAIL" signature="logo()[pri:0, instance:Test.Login@80503]" name="logo" duration-ms="8" started-at="2023-02-17T23:07:20 IST" finished-at="2023-02-17T23:07:20 IST">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
-at Test.Login.logo(Login.java:44)
+at Test.Login.logo(Login.java:43)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -54,19 +54,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logo -->
-        <test-method status="PASS" signature="logo1()[pri:0, instance:Test.Login@80503]" name="logo1" duration-ms="3" started-at="2023-02-17T15:56:41 IST" finished-at="2023-02-17T15:56:41 IST">
+        <test-method status="PASS" signature="logo1()[pri:0, instance:Test.Login@80503]" name="logo1" duration-ms="3" started-at="2023-02-17T23:07:20 IST" finished-at="2023-02-17T23:07:20 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logo1 -->
-        <test-method status="PASS" signature="logo2()[pri:0, instance:Test.Login@80503]" name="logo2" duration-ms="2" started-at="2023-02-17T15:56:41 IST" finished-at="2023-02-17T15:56:41 IST">
+        <test-method status="PASS" signature="logo2()[pri:0, instance:Test.Login@80503]" name="logo2" duration-ms="2" started-at="2023-02-17T23:07:20 IST" finished-at="2023-02-17T23:07:20 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logo2 -->
-        <test-method status="PASS" signature="logo3()[pri:0, instance:Test.Login@80503]" name="logo3" duration-ms="1" started-at="2023-02-17T15:56:41 IST" finished-at="2023-02-17T15:56:41 IST">
+        <test-method status="PASS" signature="logo3()[pri:0, instance:Test.Login@80503]" name="logo3" duration-ms="2" started-at="2023-02-17T23:07:20 IST" finished-at="2023-02-17T23:07:20 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logo3 -->
-        <test-method status="PASS" signature="testLogin()[pri:0, instance:Test.Login@80503]" name="testLogin" duration-ms="18131" started-at="2023-02-17T15:56:41 IST" finished-at="2023-02-17T15:56:59 IST">
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:Test.Login@80503]" name="testLogin" duration-ms="17772" started-at="2023-02-17T23:07:20 IST" finished-at="2023-02-17T23:07:38 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
