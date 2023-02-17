@@ -73,14 +73,14 @@ public class Login extends base{
 		System.out.println("Logo4 Displayed");
 		
 	}
-  /*	@DataProvider (name ="SearchProvider")
-	public Object[] [] dataInput() 
-	{
-		Object [] []  data= { {"xzc@gmail.com", "123456@xzc" },
-			{"amotooricap62@gmail.com",	"12345"} ,
-			 {"xzc@gmail.com" ,	"12345@klp" } } ;
-		
-		return data;   */
+   @Test
+   public void check()
+   {
+	String  str1="Prabhat";
+	String  str2="prabhat";
+	System.out.println(str1.equals(str2));
+	
+   }
 		
 		
 	}
